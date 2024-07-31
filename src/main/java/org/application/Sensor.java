@@ -1,4 +1,4 @@
-package org.example;
+package org.application;
 
 public interface Sensor {
     //returns true if sensor is on

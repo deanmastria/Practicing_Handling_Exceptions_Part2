@@ -1,4 +1,4 @@
-package org.example;
+package org.application;
 
 public class StandardSensor implements Sensor {
     private int value; //Fixed values the sensor returns
@@ -13,7 +13,6 @@ public class StandardSensor implements Sensor {
     public boolean isOn() {
         return true;
     }
-
 
     @Override
     public void setOn() {
